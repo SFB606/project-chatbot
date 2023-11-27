@@ -1,0 +1,154 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        
+        {"tag": "creation",
+         "patterns": ["who created you"],
+         "responses": ["I was Developed by a Group of students of MAMO college"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {
+            "tag": "obesity",
+            "patterns": ["Tell me about obesity", "What is obesity?", "Explain obesity"],
+            "responses": ["Obesity is a medical condition characterized by an excess of body fat. It is often associated with a higher risk of various health issues, including heart disease, diabetes, and joint problems. Managing obesity typically involves a combination of a balanced diet, regular physical activity, and sometimes medical interventions. It's essential to consult a healthcare professional for personalized guidance on managing obesity and improving overall health."],
+            "context": [""]
+        },
+        {
+            "tag": "covid19",
+            "patterns": ["What is COVID-19?", "Explain the coronavirus", "Tell me about COVID-19"],
+            "responses": ["COVID-19, also known as the coronavirus disease 2019, is a highly contagious respiratory illness caused by the SARS-CoV-2 virus. It can lead to a wide range of symptoms, including fever, cough, and shortness of breath. COVID-19 has had a significant global impact, leading to various public health measures, such as social distancing and vaccination campaigns. Staying informed about the latest guidelines from health authorities is crucial to protect yourself and others."],
+            "context": [""]
+        },
+        {
+            "tag": "arthritis",
+            "patterns": ["What is arthritis?", "Explain arthritis", "Tell me about arthritis"],
+            "responses": ["Arthritis is a term used to describe inflammation of the joints. There are several types of arthritis, with osteoarthritis and rheumatoid arthritis being the most common. It can lead to symptoms like joint pain, swelling, and limited mobility. Arthritis can have a significant impact on a person's quality of life, and management typically involves pain relief, physical therapy, and in some cases, medication. If you suspect you have arthritis or need guidance on managing the condition, consult a healthcare professional for a proper diagnosis and personalized treatment plan."],
+            "context": [""]
+        },
+        {
+            "tag": "dermatitis",
+            "patterns": ["What is dermatitis?", "Explain dermatitis", "Tell me about dermatitis"],
+            "responses": ["Dermatitis is a common skin condition characterized by inflammation of the skin. It often leads to symptoms such as redness, itching, and rash. There are various types of dermatitis, including contact dermatitis and atopic dermatitis (eczema). Management typically involves avoiding triggers, using topical creams or ointments, and following a skincare routine. If you suspect you have dermatitis or need guidance on managing the condition, consult a dermatologist or healthcare professional for proper diagnosis and personalized treatment."],
+            "context": [""]
+        },
+        {
+            "tag": "heart_diseases",
+            "patterns": ["Tell me about heart diseases", "What are common heart diseases?"],
+            "responses": ["Heart diseases, also known as cardiovascular diseases, encompass a range of conditions that affect the heart and blood vessels. Common heart diseases include coronary artery disease, heart failure, hypertension (high blood pressure), and arrhythmias. Managing heart health involves lifestyle changes such as a heart-healthy diet, regular exercise, and, in some cases, medications or medical procedures. Regular check-ups with a cardiologist are essential for monitoring heart health."],
+            "context": [""]
+        },
+        {
+            "tag": "allergy",
+            "patterns": ["What are allergies?", "Tell me about allergic reactions"],
+            "responses": ["Allergies are the body's immune response to substances called allergens, which can include pollen, dust mites, pet dander, and certain foods. Allergic reactions can lead to symptoms like sneezing, runny nose, itching, and rashes. Managing allergies may involve avoiding allergens, taking antihistamines, or receiving allergy shots (immunotherapy). If you suspect you have allergies or need guidance on managing them, consult an allergist or healthcare professional for personalized treatment."],
+            "context": [""]
+        },
+        {
+            "tag": "stroke",
+            "patterns": ["What is a stroke?", "Explain stroke", "Tell me about stroke"],
+            "responses": ["A stroke occurs when the blood supply to the brain is interrupted, leading to brain damage. There are two main types of strokes: ischemic and hemorrhagic. Symptoms of a stroke can include sudden numbness or weakness, difficulty speaking, and loss of coordination. Stroke is a medical emergency, and quick intervention is critical. Treatment may involve medications, surgery, or rehabilitation. Recognizing the signs of a stroke and seeking immediate medical attention can save lives."],
+            "context": [""]
+        },
+        {
+            "tag": "copd",
+            "patterns": ["What is COPD?", "Explain COPD", "Tell me about COPD"],
+            "responses": ["COPD, or chronic obstructive pulmonary disease, is a chronic lung condition that includes chronic bronchitis and emphysema. It leads to symptoms like coughing, shortness of breath, and decreased lung function. COPD is often caused by smoking or exposure to lung irritants. Management involves quitting smoking, using inhalers, and sometimes oxygen therapy. If you have symptoms of COPD or need guidance on managing the condition, consult a pulmonologist or healthcare professional for diagnosis and treatment."],
+            "context": [""]
+        },
+        {
+            "tag": "skin_cancer",
+            "patterns": ["What is skin cancer?", "Explain skin cancer", "Tell me about skin cancer"],
+            "responses": ["Skin cancer is a type of cancer that begins in the skin cells. The most common types are basal cell carcinoma, squamous cell carcinoma, and melanoma. Skin cancer is often caused by exposure to ultraviolet (UV) radiation from the sun or tanning beds. Early detection and treatment are crucial. Treatment may involve surgery, radiation therapy, or immunotherapy. If you have concerns about skin cancer or need guidance on prevention, consult a dermatologist or healthcare professional for evaluation and care."],
+            "context": [""]
+        },
+        {
+            "tag": "infections",
+            "patterns": ["Tell me about infections", "What are common infections?", "Explain infectious diseases"],
+            "responses": ["Infections are caused by microorganisms like bacteria, viruses, fungi, and parasites. Common infections include the flu, colds, urinary tract infections (UTIs), and sexually transmitted infections (STIs). Symptoms can vary widely depending on the type of infection. Preventing infections involves practices like hand hygiene, vaccinations, safe sex, and avoiding close contact with sick individuals. If you suspect you have an infection or need guidance on treatment, consult a healthcare professional for a proper diagnosis and medical advice."],
+            "context": [""]
+        },
+        {
+            "tag": "symptoms",
+            "patterns": [
+                "What are the symptoms of obesity?"],
+            "responses": [
+                "Obesity is characterized by excess body fat and can lead to symptoms like increased weight, difficulty in physical activities, and associated health issues."],
+            "context": [""]
+        },
+        {
+            "tag": "precaution",
+            "patterns": [
+                "What are the precautions of obesity?"],
+            "responses": [
+                "Managing obesity involves adopting a balanced diet, regular exercise, and, in some cases, medical interventions. Consult a healthcare professional for personalized guidance."],
+            "context": [""]
+        },
+        {"tag": "complication",
+         "patterns": ["Explain the complications of obesity?"],
+         "responses": ["Obesity can lead to various complications, including heart disease, diabetes, joint problems, and more. Timely management is crucial to prevent these complications. "],
+         "context": [""]
+        },
+        {
+            "tag": "prescription",
+            "patterns": ["What is the prescription for obesity"],
+            "responses": ["The prescription for obesity varies by individual and may involve lifestyle changes, medication, or surgical interventions. Consult a healthcare professional for a personalized prescription and guidance."],
+            "context": [""]
+        },
+        {
+            "tag": "symptoms",
+            "patterns": [
+                "What are the symptoms of dermatitis?"
+            ],
+            "responses": [
+                "Dermatitis is a skin condition that can cause symptoms such as redness, itching, swelling, and rash. The specific symptoms can vary depending on the type of dermatitis."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "complications",
+            "patterns": [
+                "Explain the complications of dermatitis?"
+            ],
+            "responses": [
+                "Dermatitis can lead to complications such as skin infections, scarring, and changes in skin color. Prolonged or severe dermatitis may require medical attention to prevent these complications."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "precautions",
+            "patterns": [
+                "What precautions should be taken for dermatitis?"
+            ],
+            "responses": [
+                "Precautions for dermatitis management include keeping the affected skin clean, avoiding triggers or irritants, using prescribed creams or ointments, and seeking medical advice for personalized guidance."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "prescription",
+            "patterns": [
+                "What is the prescription for dermatitis?"
+            ],
+            "responses": [
+                "The prescription for dermatitis can vary depending on the type and severity. It may include topical corticosteroids, emollients, or antihistamines. Consult a dermatologist for a personalized prescription and guidance."
+            ],
+            "context": [""]
+        }
+        
+        
+         
+         
+    ]}
